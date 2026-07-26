@@ -1,0 +1,3074 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="logo.png">
+<title>Shubh Labh Distributions</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+   
+   <!-- Splash Screen -->
+<div id="splash">
+
+    <img src="logo.png" alt="Shubh Labh Logo" class="splash-logo">
+
+    <h1 id="welcomeText">Welcome</h1>
+</div>
+
+<!-- ================= HEADER ================= -->
+
+<header id="header">
+
+<div class="container">
+
+<!--<nav class="navbar">
+
+    <!-- Hamburger Button -->
+    <!--<div class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Navigation -->
+    <!--<ul class="nav-links" id="nav-links">
+
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+        <li>
+            <a class="login-btn">
+                Employee Login
+            </a>
+        </li>
+
+    </ul>
+
+</nav>-->
+
+<nav class="navbar">
+
+    <!-- Logo -->
+   <!-- <a href="index.html" class="logo">
+        <img src="logo.png" alt="Shubh Labh Distributions">
+
+        <div class="logo-text">
+            <h2>SHUBH LABH</h2>
+            <span>DISTRIBUTIONS</span>
+        </div>
+    </a> -->
+
+    <!-- Hamburger -->
+    <div class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Menu -->
+    <ul class="nav-links" id="nav-links">
+
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+        <li>
+            <a href="#" class="login-btn">Employee Login</a>
+        </li>
+
+    </ul>
+
+</nav>
+
+</div>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+<div class="hero-container">
+
+<div class="hero-content">
+<!--
+<span class="hero-tagline">
+
+WELCOME TO SHUBH LABH DISTRIBUTIONS
+
+</span>
+
+<h1>
+
+Connecting <span>Quality Products</span><br>
+
+Directly with Consumers
+
+</h1>
+
+<h3 class="hindi-tagline">
+
+आपकी तरक्की हमारी ज़िम्मेदारी
+
+</h3>
+
+<p>
+
+<strong>Your Growth, Our Responsibility.</strong>
+
+<br><br>
+
+We build a trusted network of Marketing Professionals and Brand Promoters to bring quality lifestyle and personal care products directly to consumers while creating meaningful earning opportunities across India.
+
+</p>-->
+
+<div class="hero-buttons">
+
+<a href="careers.html" class="btn-primary">
+
+Join Our Team
+
+</a>
+
+<a href="contact.html" class="btn-secondary">
+
+Become a Brand Promoter
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= ABOUT US ================= -->
+
+<section class="about" id="about">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>ABOUT US</span>
+
+            <h2>About Shubh Labh Distributions</h2>
+
+            <p>
+                Shubh Labh Distributions is dedicated to building a modern
+                direct-to-consumer distribution network for quality lifestyle
+                and personal care products.
+            </p>
+
+        </div>
+
+        <div class="about-wrapper">
+
+            <div class="about-image">
+
+                <img src="about.jpg" alt="About Shubh Labh Distributions">
+
+            </div>
+
+            <div class="about-content">
+
+                <h3>Empowering Growth Through Direct Distribution</h3>
+
+                <p>
+                    Our mission is to create meaningful earning opportunities
+                    while making quality products more accessible through a
+                    trusted network of Marketing Professionals and Brand
+                    Promoters.
+                </p>
+
+                <a href="about.html" class="btn-primary">
+                    Learn More
+                </a>
+
+                <div class="about-features">
+
+                    <div class="feature-item">
+
+                        <i class="fas fa-users"></i>
+
+                        <div>
+
+                            <h4>Trusted Network</h4>
+
+                            <p>
+                                A growing network of Marketing Professionals and
+                                Brand Promoters across India.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="feature-item">
+
+                        <i class="fas fa-box-open"></i>
+
+                        <div>
+
+                            <h4>Quality Products</h4>
+
+                            <p>
+                                Premium lifestyle and personal care products
+                                delivered directly to consumers.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="feature-item">
+
+                        <i class="fas fa-chart-line"></i>
+
+                        <div>
+
+                            <h4>Growth Opportunities</h4>
+
+                            <p>
+                                Helping individuals build successful careers and
+                                sustainable income opportunities.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="feature-item">
+
+                        <i class="fas fa-handshake"></i>
+
+                        <div>
+
+                            <h4>Long-Term Partnerships</h4>
+
+                            <p>
+                                Building lasting relationships with customers,
+                                business partners and promoters.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= HOW IT WORKS ================= -->
+
+<section class="how-we-work" id="how-it-works">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>HOW IT WORKS</span>
+
+            <h2>Our Simple Business Model</h2>
+
+            <p>
+                We connect quality products with consumers through a structured
+                network that creates growth opportunities for everyone involved.
+            </p>
+
+        </div>
+
+        <div class="process-grid">
+
+            <div class="process-card">
+
+                <div class="process-number">01</div>
+
+                <i class="fas fa-building"></i>
+
+                <h3>Company</h3>
+
+                <p>
+                    We source premium lifestyle and personal care products and
+                    provide the business platform.
+                </p>
+
+            </div>
+
+            <div class="process-card">
+
+                <div class="process-number">02</div>
+
+                <i class="fas fa-user-tie"></i>
+
+                <h3>Marketing Professionals</h3>
+
+                <p>
+                    Our Marketing Professionals recruit, train and support
+                    Brand Promoters while expanding our distribution network.
+                </p>
+
+            </div>
+
+            <div class="process-card">
+
+                <div class="process-number">03</div>
+
+                <i class="fas fa-users"></i>
+
+                <h3>Brand Promoters</h3>
+
+                <p>
+                    Brand Promoters introduce products to consumers, build
+                    relationships and earn performance-based commissions.
+                </p>
+
+            </div>
+
+            <div class="process-card">
+
+                <div class="process-number">04</div>
+
+                <i class="fas fa-shopping-bag"></i>
+
+                <h3>Consumers</h3>
+
+                <p>
+                    Consumers receive trusted quality products backed by
+                    excellent service and ongoing support.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="workflow-note">
+
+            <h3>Business Flow</h3>
+
+            <div class="business-flow">
+
+                <div class="flow-item">
+                    <i class="fas fa-building"></i>
+                    <span>Company</span>
+                </div>
+
+                <div class="flow-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+
+                <div class="flow-item">
+                    <i class="fas fa-user-tie"></i>
+                    <span>Marketing Professionals</span>
+                </div>
+
+                <div class="flow-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+
+                <div class="flow-item">
+                    <i class="fas fa-users"></i>
+                    <span>Brand Promoters</span>
+                </div>
+
+                <div class="flow-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+
+                <div class="flow-item">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>Consumers</span>
+                </div>
+
+            </div>
+
+            <p class="flow-description">
+
+                Every <strong>Brand Promoter</strong> represents our products,
+                connects with customers and earns commission based on sales.
+                Our <strong>Marketing Professionals</strong> mentor, train and
+                support this growing network, creating long-term business
+                opportunities across India.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= WHY JOIN SHUBH LABH ================= -->
+
+<section class="why-choose" id="why-join">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>WHY JOIN SHUBH LABH?</span>
+
+            <h2>Build Your Future With Us</h2>
+
+            <p>
+                Join a growing organization where your dedication is rewarded,
+                your skills are developed and your success is celebrated.
+            </p>
+
+        </div>
+
+        <div class="why-grid">
+
+            <div class="why-card">
+
+                <i class="fas fa-graduation-cap"></i>
+
+                <h3>Professional Training</h3>
+
+                <p>
+                    Receive structured training to develop your communication,
+                    marketing and leadership skills.
+                </p>
+
+            </div>
+
+            <div class="why-card">
+
+                <i class="fas fa-chart-line"></i>
+
+                <h3>Growth Opportunities</h3>
+
+                <p>
+                    Build a rewarding career with continuous learning and
+                    advancement opportunities.
+                </p>
+
+            </div>
+
+            <div class="why-card">
+
+                <i class="fas fa-coins"></i>
+
+                <h3>Performance-Based Earnings</h3>
+
+                <p>
+                    Earn attractive commissions and incentives based on your
+                    dedication and performance.
+                </p>
+
+            </div>
+
+            <div class="why-card">
+
+                <i class="fas fa-users"></i>
+
+                <h3>Supportive Team Environment</h3>
+
+                <p>
+                    Work alongside experienced mentors who help you achieve
+                    your professional goals.
+                </p>
+
+            </div>
+
+            <div class="why-card">
+
+                <i class="fas fa-store"></i>
+
+                <h3>Direct Consumer Business Model</h3>
+
+                <p>
+                    Promote quality lifestyle and personal care products
+                    directly to consumers through our trusted network.
+                </p>
+
+            </div>
+
+            <div class="why-card">
+
+                <i class="fas fa-network-wired"></i>
+
+                <h3>Build Your Own Network</h3>
+
+                <p>
+                    Create and grow your own team of Brand Promoters while
+                    expanding your business opportunities.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= OUR SERVICES ================= -->
+
+<section class="services" id="services">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>OUR SERVICES</span>
+
+            <h2>Helping Brands Grow, Connecting Consumers</h2>
+
+            <p>
+                We provide end-to-end distribution, marketing and business
+                development solutions that help brands expand while creating
+                rewarding opportunities for Marketing Professionals and Brand
+                Promoters.
+            </p>
+
+        </div>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+
+                <i class="fas fa-box-open"></i>
+
+                <h3>Direct Product Distribution</h3>
+
+                <p>
+                    We connect quality lifestyle and personal care products
+                    directly with consumers through our growing network.
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <i class="fas fa-bullhorn"></i>
+
+                <h3>Brand Promotion</h3>
+
+                <p>
+                    Helping brands increase visibility through trained
+                    Marketing Professionals and Brand Promoters.
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <i class="fas fa-users"></i>
+
+                <h3>Consumer Network Development</h3>
+
+                <p>
+                    Building long-term customer relationships through trusted
+                    community engagement and personalized service.
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <i class="fas fa-chart-line"></i>
+
+                <h3>Sales & Marketing Support</h3>
+
+                <p>
+                    Supporting businesses with lead generation, customer
+                    engagement and sustainable sales growth.
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <i class="fas fa-user-check"></i>
+
+                <h3>Brand Ambassador Program</h3>
+
+                <p>
+                    Recruiting, training and supporting Brand Promoters who
+                    professionally represent our products.
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <i class="fas fa-globe"></i>
+
+                <h3>Business Expansion</h3>
+
+                <p>
+                    Whether you're a brand or an entrepreneur, we help create
+                    new business opportunities and sustainable growth.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div style="text-align:center; margin-top:50px;">
+
+            <a href="services.html" class="btn-primary">
+
+                View All Services
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= OUR PRODUCTS ================= -->
+
+<section class="products" id="products">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>OUR PRODUCTS</span>
+
+            <h2>Premium Fragrances, Personal Care & Lifestyle Essentials</h2>
+
+            <p>
+                At Shubh Labh Distributions, we offer a carefully selected
+                range of premium products designed to enhance everyday living.
+                Our portfolio combines quality, affordability and innovation.
+            </p>
+
+        </div>
+
+        <div class="product-grid">
+
+            <!-- Product 1 -->
+
+            <div class="product-card">
+
+                <img src="perfume.jpg" alt="Premium Perfumes">
+
+                <div class="product-content">
+
+                    <h3>Premium Fragrances</h3>
+
+                    <p>
+                        Elegant perfumes for men and women offering
+                        long-lasting freshness and a memorable impression.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Product 2 -->
+
+            <div class="product-card">
+
+                <img src="personal-care.jpg" alt="Personal Care">
+
+                <div class="product-content">
+
+                    <h3>Personal Care</h3>
+
+                    <p>
+                        High-quality skincare, haircare, body care
+                        and daily hygiene essentials for every family.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Product 3 -->
+
+            <div class="product-card">
+
+                <img src="beauty.jpg" alt="Beauty & Wellness">
+
+                <div class="product-content">
+
+                    <h3>Beauty & Wellness</h3>
+
+                    <p>
+                        Premium beauty and wellness products that
+                        inspire confidence, self-care and healthy living.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Product 4 -->
+
+            <div class="product-card">
+
+                <img src="lifestyle.jpg" alt="Lifestyle Essentials">
+
+                <div class="product-content">
+
+                    <h3>Lifestyle Essentials</h3>
+
+                    <p>
+                        Everyday products that deliver convenience,
+                        comfort and exceptional value to modern lifestyles.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="section-heading" style="margin-top:60px;">
+
+            <h3>Our Commitment</h3>
+
+            <p>
+
+                We are committed to delivering trusted, high-quality
+                products through our dedicated network of Marketing
+                Professionals and Brand Promoters, ensuring every
+                customer enjoys exceptional value, reliable service
+                and a satisfying product experience.
+
+            </p>
+
+        </div>
+
+        <div style="text-align:center;">
+
+            <a href="products.html" class="btn-primary">
+
+                View All Products
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CAREERS ================= -->
+
+<section class="careers" id="careers">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>CAREERS</span>
+
+            <h2>We're Hiring</h2>
+
+            <p>
+                We're looking for passionate individuals who enjoy meeting people,
+                building relationships and growing successful teams. Join us and
+                build a rewarding career with Shubh Labh Distributions.
+            </p>
+
+        </div>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+
+                <i class="fas fa-bullhorn"></i>
+
+                <h3>Marketing Executive</h3>
+
+                <p>
+                    Promote our products, engage with customers and help expand
+                    our distribution network.
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <i class="fas fa-user-tie"></i>
+
+                <h3>HR Manager</h3>
+
+                <p>
+                    Recruit, train and support Marketing Professionals and
+                    Brand Promoters while strengthening our team.
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <i class="fas fa-chart-line"></i>
+
+                <h3>Business Development Executive</h3>
+
+                <p>
+                    Identify new business opportunities, develop partnerships
+                    and contribute to the company's growth.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div style="text-align:center; margin-top:50px;">
+
+            <a href="careers.html" class="btn-primary">
+
+                Apply Now
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= JOIN OUR TEAM ================= -->
+
+<section class="contact-banner">
+
+    <div class="container contact-banner-content">
+
+        <div>
+
+            <span style="color:#D4AF37;font-weight:700;letter-spacing:2px;">
+                OUR PROMISE
+            </span>
+
+            <h2>Your Growth, Our Responsibility.</h2>
+
+            <h3 style="margin:15px 0;color:#ffffff;">
+                आपकी तरक्की हमारी ज़िम्मेदारी।
+            </h3>
+
+            <p>
+                We believe that when our people grow, our business grows.
+                That's why we invest in professional training, continuous
+                support and long-term development. Whether you're looking for
+                career opportunities, business partnerships or becoming a Brand
+                Promoter, we're here to help you succeed.
+            </p>
+
+        </div>
+
+        <div>
+
+            <a href="careers.html" class="btn-primary">
+
+                Join Our Team
+
+            </a>
+
+            <a href="contact.html"
+               class="btn-secondary"
+               style="margin-left:15px;">
+
+                Become a Brand Promoter
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <!-- Company -->
+
+            <div class="footer-about">
+
+                <img src="logo.png" alt="Shubh Labh Logo">
+
+                <h3>Shubh Labh Distributions</h3>
+
+                <p>
+
+                    Your trusted partner in direct product distribution,
+                    empowering Marketing Professionals and Brand Promoters
+                    while delivering premium lifestyle and personal care
+                    products across India.
+
+                </p>
+
+            </div>
+
+            <!-- Quick Links -->
+
+            <div>
+
+                <h4>Quick Links</h4>
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="about.html">About Us</a></li>
+
+                    <li><a href="services.html">Services</a></li>
+
+                    <li><a href="products.html">Products</a></li>
+
+                    <li><a href="careers.html">Careers</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- Contact -->
+
+            <div>
+
+                <h4>Contact Us</h4>
+
+                <p>
+
+                    <i class="fas fa-map-marker-alt"></i>
+
+                    Sector 18, Chandigarh, India
+
+                </p>
+
+                <p>
+
+                    <i class="fas fa-phone"></i>
+
+                    +91 74835 26536
+
+                </p>
+
+                <p>
+
+                    <i class="fas fa-phone"></i>
+
+                    +91 82406 33147
+
+                </p>
+
+                <p>
+
+                    <i class="fas fa-envelope"></i>
+
+                    info@shubhlabhdistributions.com
+
+                </p>
+
+                <div class="social-icons">
+
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+
+                © 2026 Shubh Labh Distributions. All Rights Reserved.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- Back To Top -->
+
+<button id="topBtn">
+
+<i class="fas fa-arrow-up"></i>
+
+</button>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
+
+/* ==========================================
+   SHUBH LABH DISTRIBUTIONS
+   Premium Corporate Theme
+========================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    color:#333;
+    background:#fff;
+    overflow-x:hidden;
+    line-height:1.7;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+}
+
+.container{
+    width:90%;
+    max-width:1280px;
+    margin:auto;
+}
+
+/*=========================
+HEADER
+=========================*/
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:transparent;
+    transition:.35s;
+    z-index:1000;
+}
+
+header.scrolled{
+    background:#fff;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+.navbar{
+    display:flex;
+    align-items:center;
+    height:90px;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    color:#fff;
+}
+
+.logo img{
+    height:65px;
+}
+
+.logo-text h2{
+    font-size:28px;
+    line-height:1;
+    color:#fff;
+    font-weight:700;
+}
+
+.logo-text span{
+    color:#D4AF37;
+    font-size:12px;
+    letter-spacing:2px;
+    font-weight:600;
+}
+
+header.scrolled .logo-text h2{
+    color:#0B2D5C;
+}
+
+/* Push menu to right */
+.nav-links{
+    display:flex;
+    align-items:center;
+    gap:32px;
+    margin-left:auto;
+}
+
+.nav-links a{
+    color:#fff;
+    font-weight:500;
+    transition:.3s;
+}
+
+header.scrolled .nav-links a{
+    color:#0B2D5C;
+}
+
+.nav-links a:hover,
+.nav-links a.active{
+    color:#D4AF37;
+}
+
+.login-btn{
+    background:#D4AF37;
+    color:#fff !important;
+    padding:13px 28px;
+    border-radius:40px;
+    font-weight:600;
+}
+
+.login-btn:hover{
+    background:#0B2D5C;
+    color:#fff !important;
+}
+
+.menu-toggle{
+    display:none;
+    font-size:30px;
+    cursor:pointer;
+    color:#fff;
+}
+
+header.scrolled .menu-toggle{
+    color:#0B2D5C;
+}
+
+/*=========================
+HERO
+=========================*/
+
+.hero{
+    min-height:100vh;
+    position:relative;
+    display:flex;
+    align-items:flex-start;
+z-index:0;
+    background: url("hero1.jpg") center center / cover no-repeat;
+background-color: #000;
+
+    padding-top:110px;
+    overflow:hidden;
+}
+
+/* Very light overlay only for readability */
+.hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:linear-gradient(
+        to bottom,
+        rgba(255,255,255,.08),
+        rgba(255,255,255,.12)
+    );
+    z-index:1;
+}
+
+.hero-container{
+    position:relative;
+    z-index:2;
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.hero-content{
+    max-width:700px;
+    color:#0B2D5C;
+    text-align:center;
+
+    /* Move content down */
+    margin-top:240px;
+}
+
+.hero-tagline{
+    display:inline-block;
+    background:rgba(212,175,55,.18);
+    color:#B8860B;
+    padding:12px 24px;
+    border-radius:40px;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:.5px;
+    margin-bottom:40px;
+    backdrop-filter:blur(6px);
+}
+
+/* Hidden because text already exists in image */
+.hero h1,
+.hindi-tagline,
+.hero p{
+    display:none;
+}
+
+.hero-buttons{
+    display:flex;
+    justify-content:column;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.btn-primary{
+    display:inline-block;
+    background:#D4AF37;
+    color:#fff;
+    padding:16px 34px;
+    border-radius:40px;
+    font-weight:600;
+    transition:.3s;
+    box-shadow:0 12px 25px rgba(212,175,55,.35);
+}
+
+.btn-primary:hover{
+    transform:translateY(-3px);
+    background:#b8901f;
+}
+
+.btn-secondary{
+    display:inline-block;
+    border:2px solid #0B2D5C;
+    color:#0B2D5C;
+    background:rgba(255,255,255,.7);
+    padding:16px 34px;
+    border-radius:40px;
+    font-weight:600;
+    transition:.3s;
+    backdrop-filter:blur(6px);
+}
+
+.btn-secondary:hover{
+    background:#0B2D5C;
+    color:#fff;
+}
+
+/* Tablet */
+@media(max-width:992px){
+
+.hero{
+    background-size:cover;
+    background-position:center top;
+}
+
+.hero-content{
+    margin-top:180px;
+}
+
+}
+
+/* Mobile */
+@media(max-width:768px){
+
+.hero{
+    min-height:100vh;
+    background-size:cover;
+    background-position:center top;
+    padding-top:140px;
+}
+
+.hero-content{
+    margin-top:340px;   /* Move buttons lower */
+    text-align:center;
+}
+
+.hero-buttons{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:18px;
+    margin-top:40px;
+}
+
+.hero-buttons a{
+    width:280px;
+    text-align:center;
+}
+
+}
+
+/*=========================================
+SECTION HEADINGS
+=========================================*/
+
+section{
+    padding:100px 0;
+}
+
+.section-heading{
+    text-align:center;
+    margin-bottom:70px;
+}
+
+.section-heading span{
+    display:inline-block;
+    color:#D4AF37;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    margin-bottom:15px;
+}
+
+.section-heading h2{
+    font-size:42px;
+    color:#0B2D5C;
+    margin-bottom:20px;
+}
+
+.section-heading p{
+    max-width:760px;
+    margin:auto;
+    color:#666;
+    line-height:1.8;
+}
+
+/*=========================================
+ABOUT
+=========================================*/
+
+.about{
+    background:#ffffff;
+}
+
+.about-wrapper{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:70px;
+    align-items:center;
+}
+
+.about-image img{
+    width:100%;
+    border-radius:20px;
+    box-shadow:0 20px 60px rgba(0,0,0,.12);
+}
+
+.about-content h3{
+    font-size:34px;
+    color:#0B2D5C;
+    margin-bottom:20px;
+}
+
+.about-content p{
+    color:#666;
+    line-height:1.9;
+    margin-bottom:25px;
+}
+
+.about-content .btn-primary{
+    margin-bottom:40px;
+}
+
+.about-features{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.feature-item{
+    display:flex;
+    gap:18px;
+    padding:25px;
+    background:#fff;
+    border-radius:18px;
+    box-shadow:0 12px 35px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.feature-item:hover{
+    transform:translateY(-8px);
+}
+
+.feature-item i{
+    width:60px;
+    height:60px;
+    background:#D4AF37;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    font-size:24px;
+}
+
+.feature-item h4{
+    color:#0B2D5C;
+    margin-bottom:8px;
+}
+
+.feature-item p{
+    margin:0;
+    font-size:15px;
+}
+
+/*=========================================
+HOW IT WORKS
+=========================================*/
+
+.how-we-work{
+    background:#F7F9FC;
+}
+
+.process-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
+}
+
+.process-card{
+    background:#fff;
+    padding:40px 30px;
+    border-radius:20px;
+    text-align:center;
+    position:relative;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.process-card:hover{
+    transform:translateY(-10px);
+}
+
+.process-number{
+    position:absolute;
+    top:20px;
+    right:20px;
+    font-size:42px;
+    font-weight:700;
+    color:#eef2f8;
+}
+
+.process-card i{
+    font-size:50px;
+    color:#D4AF37;
+    margin-bottom:20px;
+}
+
+.process-card h3{
+    color:#0B2D5C;
+    margin-bottom:15px;
+}
+
+.process-card p{
+    color:#666;
+    line-height:1.8;
+}
+
+/*=========================================
+BUSINESS FLOW
+=========================================*/
+
+.workflow-note{
+    margin-top:60px;
+    background:#fff;
+    border-radius:20px;
+    padding:40px;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+}
+
+.workflow-note h3{
+    text-align:center;
+    color:#0B2D5C;
+    margin-bottom:35px;
+}
+
+.business-flow{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.flow-item{
+    width:180px;
+    background:#0B2D5C;
+    color:#fff;
+    border-radius:15px;
+    padding:25px;
+    text-align:center;
+}
+
+.flow-item i{
+    font-size:34px;
+    color:#D4AF37;
+    margin-bottom:12px;
+}
+
+.flow-arrow{
+    font-size:28px;
+    color:#D4AF37;
+}
+
+.flow-description{
+    margin-top:35px;
+    text-align:center;
+    color:#666;
+    line-height:1.9;
+}
+/*=========================================
+WHY JOIN SHUBH LABH
+=========================================*/
+
+.why-choose{
+    background:#ffffff;
+}
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.why-card{
+    background:#fff;
+    padding:40px 30px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+    transition:all .35s ease;
+    border-top:5px solid transparent;
+}
+
+.why-card:hover{
+    transform:translateY(-10px);
+    border-top:5px solid #D4AF37;
+    box-shadow:0 25px 60px rgba(0,0,0,.15);
+}
+
+.why-card i{
+    font-size:52px;
+    color:#D4AF37;
+    margin-bottom:25px;
+}
+
+.why-card h3{
+    color:#0B2D5C;
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.why-card p{
+    color:#666;
+    line-height:1.8;
+}
+
+/*=========================================
+OUR SERVICES
+=========================================*/
+
+.services{
+    background:#F7F9FC;
+}
+
+.services-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.service-card{
+    background:#fff;
+    padding:40px 30px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+    transition:all .35s ease;
+    overflow:hidden;
+    position:relative;
+}
+
+.service-card::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:5px;
+    background:#D4AF37;
+    transform:scaleX(0);
+    transition:.35s;
+}
+
+.service-card:hover::before{
+    transform:scaleX(1);
+}
+
+.service-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 25px 60px rgba(0,0,0,.15);
+}
+
+.service-card i{
+    width:90px;
+    height:90px;
+    margin:auto;
+    background:#0B2D5C;
+    color:#D4AF37;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:36px;
+    margin-bottom:25px;
+    transition:.35s;
+}
+
+.service-card:hover i{
+    background:#D4AF37;
+    color:#fff;
+}
+
+.service-card h3{
+    color:#0B2D5C;
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.service-card p{
+    color:#666;
+    line-height:1.8;
+}
+
+/*=========================================
+COMMON BUTTON ALIGNMENT
+=========================================*/
+
+.services .btn-primary,
+.products .btn-primary,
+.careers .btn-primary{
+    margin-top:10px;
+}
+
+/*=========================================
+CARD ANIMATION
+=========================================*/
+
+.feature-item,
+.process-card,
+.why-card,
+.service-card{
+    transition:all .35s ease;
+}
+
+.feature-item:hover,
+.process-card:hover,
+.why-card:hover,
+.service-card:hover{
+    box-shadow:0 25px 60px rgba(0,0,0,.15);
+}
+
+/*=========================================
+OUR PRODUCTS
+=========================================*/
+
+.products{
+    background:#ffffff;
+}
+
+.product-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
+}
+
+.product-card{
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+    transition:all .35s ease;
+}
+
+.product-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 25px 60px rgba(0,0,0,.15);
+}
+
+.product-card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.product-content{
+    padding:30px;
+}
+
+.product-content h3{
+    color:#0B2D5C;
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.product-content p{
+    color:#666;
+    line-height:1.8;
+}
+
+.products .section-heading h3{
+    color:#0B2D5C;
+    font-size:30px;
+    margin-bottom:15px;
+}
+
+/*=========================================
+CAREERS
+=========================================*/
+
+.careers{
+    background:#F7F9FC;
+}
+
+.careers .service-card{
+    min-height:340px;
+}
+
+.careers .service-card h3{
+    margin-top:15px;
+}
+
+/*=========================================
+JOIN OUR TEAM BANNER
+=========================================*/
+
+.contact-banner{
+
+    background:linear-gradient(135deg,#0B2D5C,#184D90);
+
+    color:#fff;
+
+    padding:80px 0;
+
+}
+
+.contact-banner-content{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:60px;
+
+}
+
+.contact-banner h2{
+
+    font-size:42px;
+
+    margin:15px 0;
+
+}
+
+.contact-banner h3{
+
+    color:#D4AF37;
+
+    margin-bottom:20px;
+
+}
+
+.contact-banner p{
+
+    color:#f2f2f2;
+
+    line-height:1.9;
+
+}
+
+.contact-banner .btn-primary{
+
+    margin-right:15px;
+
+}
+
+.contact-banner .btn-secondary{
+
+    border:2px solid #fff;
+
+}
+.contact-form{
+    width:100%;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select{
+    width:100%;
+    padding:16px;
+    font-size:16px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    margin-bottom:18px;
+    box-sizing:border-box;
+}
+
+.contact-form textarea{
+    min-height:140px;
+}
+/*=========================================
+SECTION SPACING
+=========================================*/
+
+.about,
+.how-we-work,
+.why-choose,
+.services,
+.products,
+.careers{
+
+    padding:110px 0;
+
+}
+
+/*=========================================
+HOVER EFFECTS
+=========================================*/
+
+.product-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.product-card img{
+
+    transition:.5s;
+
+}
+
+.service-card:hover i,
+.why-card:hover i,
+.feature-item:hover i{
+
+    transform:rotate(10deg) scale(1.08);
+
+    transition:.35s;
+
+}
+
+.btn-primary:hover,
+.btn-secondary:hover,
+.login-btn:hover{
+
+    transform:translateY(-3px);
+
+}
+/*=========================================
+FOOTER
+=========================================*/
+
+footer{
+    background:#081C3A;
+    color:#ffffff;
+    padding:80px 0 0;
+}
+
+.footer-grid{
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr;
+    gap:60px;
+    padding-bottom:50px;
+}
+
+.footer-about img{
+    width:90px;
+    margin-bottom:20px;
+}
+
+.footer-about h3{
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.footer-about p{
+    color:#d7d7d7;
+    line-height:1.9;
+}
+
+.footer-grid h4{
+    color:#D4AF37;
+    margin-bottom:25px;
+}
+
+.footer-grid ul li{
+    margin-bottom:15px;
+}
+
+.footer-grid ul li a{
+    color:#d7d7d7;
+    transition:.3s;
+}
+
+.footer-grid ul li a:hover{
+    color:#D4AF37;
+    padding-left:6px;
+}
+
+.footer-grid p{
+    color:#d7d7d7;
+    margin-bottom:12px;
+}
+
+.social-icons{
+    display:flex;
+    gap:15px;
+    margin-top:25px;
+}
+
+.social-icons a{
+    width:45px;
+    height:45px;
+    background:#D4AF37;
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition:.35s;
+}
+
+.social-icons a:hover{
+    background:#fff;
+    color:#0B2D5C;
+    transform:translateY(-5px);
+}
+
+.footer-bottom{
+    text-align:center;
+    border-top:1px solid rgba(255,255,255,.1);
+    padding:25px;
+    color:#cccccc;
+}
+
+/*=========================================
+BACK TO TOP BUTTON
+=========================================*/
+
+#topBtn{
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    width:55px;
+    height:55px;
+    border:none;
+    border-radius:50%;
+    background:#D4AF37;
+    color:#fff;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:20px;
+    opacity:0;
+    visibility:hidden;
+    transition:.35s;
+    z-index:999;
+}
+
+#topBtn.show-btn{
+    opacity:1;
+    visibility:visible;
+}
+
+#topBtn:hover{
+    background:#0B2D5C;
+}
+
+/*=========================================
+SCROLL ANIMATION
+=========================================*/
+
+section{
+    opacity:0;
+    transform:translateY(40px);
+    transition:all .8s ease;
+}
+
+section.show{
+    opacity:1;
+    transform:translateY(0);
+}
+
+/*=========================================
+RESPONSIVE
+=========================================*/
+
+@media(max-width:1100px){
+
+.about-wrapper{
+grid-template-columns:1fr;
+}
+
+.process-grid,
+.services-grid,
+.product-grid,
+.why-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+.footer-grid{
+grid-template-columns:1fr 1fr;
+}
+
+.contact-banner-content{
+flex-direction:column;
+text-align:center;
+}
+
+}
+
+@media(max-width:768px){
+
+.navbar{
+flex-direction:column;
+height:auto;
+padding:20px 0;
+}
+
+.nav-links{
+flex-wrap:wrap;
+justify-content:center;
+gap:18px;
+margin:20px 0;
+}
+
+.hero{
+text-align:center;
+padding-top:140px;
+}
+
+.hero h1{
+font-size:38px;
+}
+
+.hero-buttons{
+flex-direction:column;
+align-items:center;
+}
+
+.hero-buttons a{
+width:230px;
+text-align:center;
+}
+
+.process-grid,
+.services-grid,
+.product-grid,
+.why-grid,
+.about-features,
+.footer-grid{
+grid-template-columns:1fr;
+}
+
+.business-flow{
+flex-direction:column;
+}
+
+.flow-arrow{
+transform:rotate(90deg);
+}
+
+.contact-banner .btn-primary,
+.contact-banner .btn-secondary{
+display:block;
+margin:15px auto;
+width:240px;
+text-align:center;
+}
+
+.section-heading h2{
+font-size:34px;
+}
+
+}
+
+@media(max-width:480px){
+
+.container{
+width:92%;
+}
+
+.hero h1{
+font-size:30px;
+}
+
+.hero p{
+font-size:16px;
+}
+
+.section-heading h2{
+font-size:28px;
+}
+
+.logo img{
+height:55px;
+}
+
+.logo-text h2{
+font-size:22px;
+}
+
+.login-btn{
+padding:12px 22px;
+}
+
+}
+
+/*=========================================
+MOBILE HAMBURGER MENU
+=========================================*/
+
+/* Hide hamburger on desktop 
+.menu-toggle{
+    display:none;
+    font-size:28px;
+    color:#fff;
+    cursor:pointer;
+}
+
+header.scrolled .menu-toggle{
+    color:#0B2D5C;
+}
+
+/* Mobile 
+@media (max-width:768px){
+
+    .navbar{
+        position:relative;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        height:80px;
+    }
+
+    .logo{
+        gap:10px;
+    }
+
+    .logo img{
+        height:55px;
+    }
+
+    .logo-text h2{
+        font-size:22px;
+    }
+
+    .logo-text span{
+        font-size:11px;
+    }
+
+    .menu-toggle{
+        display:block;
+        z-index:1001;
+    }
+
+    .nav-links{
+        position:absolute;
+        top:80px;
+        left:0;
+        width:100%;
+        background:#0B2D5C;
+
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:0;
+
+        max-height:0;
+        overflow:hidden;
+
+        transition:0.4s ease;
+    }
+
+    .nav-links.active{
+        max-height:600px;
+        padding:20px 0;
+    }
+
+    .nav-links li{
+        width:100%;
+        text-align:center;
+    }
+
+    .nav-links li a{
+        display:block;
+        padding:15px;
+        color:#fff;
+    }
+
+    .login-btn{
+        display:inline-block;
+        margin:20px auto;
+    }
+
+    .hero{
+        padding-top:140px;
+    }
+
+    .hero h1{
+        font-size:34px;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+    }
+
+    .hero-buttons a{
+        width:100%;
+        max-width:260px;
+        text-align:center;
+    }
+}
+.nav-links.active{
+    display:flex;
+    flex-direction:column;
+    position:fixed;
+    top:80px;
+    left:0;
+    width:100%;
+    background:#0B2D5C;
+    max-height:calc(100vh - 80px);
+    overflow-y:auto;
+    padding:15px 0;
+    z-index:999;
+}
+
+.nav-links.active li{
+    width:100%;
+}
+
+.nav-links.active li a{
+    display:block;
+    padding:15px 20px;
+    text-align:center;
+    color:#fff;
+}
+
+.nav-links.active .login-btn{
+    width:220px;
+    margin:20px auto;
+    text-align:center;
+}*/
+
+/*=========================================
+MOBILE MENU
+=========================================*/
+
+@media(max-width:768px){
+
+.navbar{
+    height:80px;
+    display:flex;
+    align-items:center;
+}
+
+.logo img{
+    height:55px;
+}
+
+.logo-text h2{
+    font-size:22px;
+}
+
+.logo-text span{
+    font-size:11px;
+}
+
+.menu-toggle{
+    display:block;
+    margin-left:auto;
+    z-index:1001;
+}
+
+.nav-links{
+    position:fixed;
+    top:80px;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+
+    background:#0B2D5C;
+
+    display:flex;
+    flex-direction:column;
+
+    max-height:0;
+    overflow-y:auto;
+
+    transition:.35s;
+
+    z-index:9999;
+}
+
+.nav-links.active{
+    max-height:calc(100vh - 80px);
+    overflow-y:auto;
+    padding:15px 0;
+}
+
+.nav-links li{
+    width:100%;
+}
+
+.nav-links li a{
+    display:block;
+    text-align:center;
+    padding:16px;
+    color:#fff;
+}
+
+.login-btn{
+    width:220px;
+    margin:20px auto;
+    text-align:center;
+}
+
+}
+@media(max-width:768px){
+
+.contact-form{
+    padding:20px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select{
+    width:100%;
+    font-size:16px;
+}
+
+}
+/* ===== CONTACT FORM FIX ===== */
+
+.contact-section{
+    background:#F7F9FC;
+    padding:100px 0;
+}
+
+.contact-form{
+    max-width:900px;
+    margin:40px auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:16px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:16px;
+    box-sizing:border-box;
+}
+
+.contact-form textarea{
+    grid-column:1 / 3;
+    min-height:180px;
+}
+
+.contact-form .btn-primary{
+    grid-column:1 / 3;
+    justify-self:center;
+}
+
+@media(max-width:768px){
+
+    .contact-form{
+        grid-template-columns:1fr;
+        padding:0;
+    }
+
+    .contact-form textarea,
+    .contact-form .btn-primary{
+        grid-column:auto;
+    }
+
+    .contact-form .btn-primary{
+        width:100%;
+    }
+
+}
+.product-features{
+    list-style:none;
+    padding:0;
+    margin-top:18px;
+}
+
+.product-features li{
+    padding:8px 0;
+    color:#555;
+    font-size:15px;
+}
+
+.product-features i{
+    color:#D4AF37;
+    margin-right:8px;
+}
+
+/* Gallery Popup */
+
+.gallery-popup{
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.85);
+    justify-content:center;
+    align-items:center;
+    z-index:9999;
+}
+
+.gallery-content{
+    background:#fff;
+    width:90%;
+    max-width:950px;
+    padding:30px;
+    border-radius:18px;
+    text-align:center;
+    max-height:90vh;
+    overflow-y:auto;
+}
+
+.gallery-content h2{
+    color:#B8860B;
+    margin-bottom:25px;
+}
+
+.gallery-content img{
+    width:100%;
+    border-radius:12px;
+    margin-bottom:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.gallery-close{
+    position:absolute;
+    top:25px;
+    right:40px;
+    font-size:45px;
+    color:#fff;
+    cursor:pointer;
+}
+.chocolate-showcase{
+
+    padding:80px 0;
+
+    background:#faf8f4;
+
+}
+
+.chocolate-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:30px;
+
+    margin-top:40px;
+
+}
+
+.chocolate-grid img{
+
+    width:100%;
+
+    border-radius:18px;
+
+    cursor:pointer;
+
+    transition:.4s;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+
+}
+
+.chocolate-grid img:hover{
+
+    transform:translateY(-8px) scale(1.02);
+
+}
+
+.flavour-box{
+
+    margin-top:50px;
+
+    text-align:center;
+
+}
+
+.flavour-box h3{
+
+    color:#B8860B;
+
+    margin-bottom:25px;
+
+}
+
+.flavour-list{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:15px;
+
+}
+
+.flavour-list span{
+
+    background:#fff;
+
+    padding:12px 20px;
+
+    border-radius:30px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    font-weight:600;
+
+}
+
+@media(max-width:768px){
+
+.chocolate-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+.image-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.9);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.close-image {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    z-index: 10000;
+}
+
+.image-modal img{
+    max-width:90%;
+    max-height:90%;
+    border-radius:15px;
+    box-shadow:0 15px 40px rgba(0,0,0,.4);
+}
+/* =========================
+   SPLASH SCREEN
+========================= */
+
+#splash h1{
+    color:#0B2D5C;
+    font-size:42px;
+    margin-bottom:10px;
+    transition:.5s;
+}
+
+#splash p{
+    color:#B8860B;
+    font-size:22px;
+    font-weight:600;
+}
+
+@keyframes logoZoom{
+    from{
+        transform:scale(.95);
+    }
+    to{
+        transform:scale(1.05);
+    }
+}
+
+.fade-out{
+    opacity:0;
+    visibility:hidden;
+}
+
+#splash{
+    position:fixed;
+    inset:0;
+    background:#ffffff;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    z-index:99999;
+    transition:opacity .8s;
+}
+
+.splash-logo{
+    width:190px;
+    margin-bottom:35px;
+    animation: heartbeat 1.8s infinite;
+}
+
+@keyframes heartbeat{
+
+    0%{
+
+        transform:scale(1);
+
+    }
+
+    14%{
+
+        transform:scale(1.12);
+
+    }
+
+    28%{
+
+        transform:scale(1);
+
+    }
+
+    42%{
+
+        transform:scale(1.12);
+
+    }
+
+    70%{
+
+        transform:scale(1);
+
+    }
+
+    100%{
+
+        transform:scale(1);
+
+    }
+
+}
+
+#welcomeText{
+    font-family:'Noto Sans',sans-serif;
+    font-size:56px;
+    font-weight:700;
+    color:#0B2D5C;
+    min-height:70px;
+    transition:opacity .35s ease, transform .35s ease;
+}
+
+#splash p{
+    margin-top:15px;
+    font-size:22px;
+    color:#D4AF37;
+    font-family:'Poppins',sans-serif;
+}
+
+// =========================================
+// SHUBH LABH DISTRIBUTIONS
+// Premium Website Script
+// =========================================
+
+// Sticky Header
+
+const header = document.querySelector("header");
+
+window.addEventListener("scroll", () => {
+
+    if (window.scrollY > 80) {
+        header.classList.add("scrolled");
+    } else {
+        header.classList.remove("scrolled");
+    }
+
+});
+
+// =========================================
+// Back To Top Button
+// =========================================
+
+const topBtn = document.getElementById("topBtn");
+
+window.addEventListener("scroll", () => {
+
+    if (window.pageYOffset > 400) {
+        topBtn.classList.add("show-btn");
+    } else {
+        topBtn.classList.remove("show-btn");
+    }
+
+});
+
+topBtn.addEventListener("click", () => {
+
+    window.scrollTo({
+
+        top:0,
+
+        behavior:"smooth"
+
+    });
+
+});
+
+// =========================================
+// Scroll Animation
+// =========================================
+
+const sections = document.querySelectorAll("section");
+
+function revealSections(){
+
+    const trigger = window.innerHeight * 0.85;
+
+    sections.forEach(section=>{
+
+        const top = section.getBoundingClientRect().top;
+
+        if(top < trigger){
+
+            section.classList.add("show");
+
+        }
+
+    });
+
+}
+
+window.addEventListener("scroll", revealSections);
+
+revealSections();
+
+// =========================================
+// Active Menu
+// =========================================
+
+const navLinks = document.querySelectorAll(".nav-links a");
+
+window.addEventListener("scroll", () => {
+
+    let current = "";
+
+    sections.forEach(section => {
+
+        const sectionTop = section.offsetTop - 120;
+
+        if (pageYOffset >= sectionTop) {
+
+            current = section.getAttribute("id");
+
+        }
+
+    });
+
+    navLinks.forEach(link => {
+
+        link.classList.remove("active");
+
+        if(link.getAttribute("href").includes(current)){
+
+            link.classList.add("active");
+
+        }
+
+    });
+
+});
+
+// =========================================
+// Smooth Scrolling
+// =========================================
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor=>{
+
+    anchor.addEventListener("click",function(e){
+
+        e.preventDefault();
+
+        const target=document.querySelector(this.getAttribute("href"));
+
+        if(target){
+
+            target.scrollIntoView({
+
+                behavior:"smooth"
+
+            });
+
+        }
+
+    });
+
+});
+// ===============================
+// MOBILE MENU TOGGLE
+// ===============================
+
+const menuToggle = document.getElementById("menu-toggle");
+const mobileNav = document.getElementById("nav-links");
+
+if (menuToggle && mobileNav) {
+
+    menuToggle.addEventListener("click", () => {
+
+        mobileNav.classList.toggle("active");
+
+        const icon = menuToggle.querySelector("i");
+
+        if (mobileNav.classList.contains("active")) {
+            icon.classList.remove("fa-bars");
+            icon.classList.add("fa-times");
+        } else {
+            icon.classList.remove("fa-times");
+            icon.classList.add("fa-bars");
+        }
+    });
+
+    document.querySelectorAll("#nav-links a").forEach(link => {
+
+        link.addEventListener("click", () => {
+
+            mobileNav.classList.remove("active");
+
+            const icon = menuToggle.querySelector("i");
+            icon.classList.remove("fa-times");
+            icon.classList.add("fa-bars");
+
+        });
+
+    });
+
+}// EmailJS Configuration
+
+(function(){
+
+    emailjs.init("vhJD7jOsmCgKUpmMi");
+
+})();
+
+document.getElementById("contact-form")
+?.addEventListener("submit", function(event){
+
+    event.preventDefault();
+
+    emailjs.sendForm(
+        "service_tgvz9ub",
+        "template_jtl6zlm",
+        this
+    )
+
+    .then(function(){
+
+        alert("Thank you! Your message has been sent successfully.");
+
+        document.getElementById("contact-form").reset();
+
+    },function(error){
+
+        alert("Failed to send message. Please try again.");
+
+        console.log(error);
+
+    });
+
+});
+
+/* ===========================
+   CAREER FORM
+=========================== */
+
+const careerForm = document.getElementById("career-form");
+
+if (careerForm) {
+
+    careerForm.addEventListener("submit", function(e) {
+
+        e.preventDefault();
+
+        emailjs.sendForm(
+            "service_tgvz9ub",
+            "template_eiq1f0f",
+            this
+        )
+        .then(function() {
+
+            alert("Thank you! Your job application has been submitted successfully.");
+
+            careerForm.reset();
+
+        })
+        .catch(function(error) {
+
+            console.log(error);
+            alert("Failed to submit application. Please try again.");
+
+        });
+
+    });
+
+}
+function openGallery() {
+    document.getElementById("galleryPopup").style.display = "flex";
+}
+
+function closeGallery() {
+    document.getElementById("galleryPopup").style.display = "none";
+}
+
+window.onclick = function(event) {
+    const popup = document.getElementById("galleryPopup");
+    if (event.target === popup) {
+        popup.style.display = "none";
+    }
+};
+
+const modal = document.getElementById("imageModal");
+const modalImg = document.getElementById("modalImage");
+const closeBtn = document.querySelector(".close-image");
+
+if (modal && modalImg && closeBtn) {
+
+    document.querySelectorAll(".product-card img").forEach(img => {
+        img.addEventListener("click", function () {
+            modal.style.display = "flex";
+            modalImg.src = this.src;
+            modalImg.alt = this.alt;
+        });
+    });
+
+    closeBtn.addEventListener("click", () => {
+        modal.style.display = "none";
+    });
+
+    modal.addEventListener("click", (e) => {
+        if (e.target === modal) {
+            modal.style.display = "none";
+        }
+    });
+
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const greetings = [
+        "Welcome",
+        "नमस्ते",
+        "ನಮಸ್ಕಾರ",
+        "வணக்கம்",
+        "నమస్కారం",
+        "സ്വാഗതം",
+        "স্বাগতম",
+        "નમસ્તે"
+    ];
+
+    const welcome = document.getElementById("welcomeText");
+    const splash = document.getElementById("splash");
+
+    let i = 0;
+
+    welcome.textContent = greetings[0];
+
+    const changeText = setInterval(() => {
+
+        i++;
+
+        if(i < greetings.length){
+
+            welcome.style.opacity = 0;
+welcome.style.transform = "translateY(10px)";
+
+setTimeout(() => {
+    welcome.textContent = greetings[i];
+    welcome.style.opacity = 1;
+    welcome.style.transform = "translateY(0)";
+}, 200);
+
+        }else{
+
+            clearInterval(changeText);
+
+            setTimeout(() => {
+
+                splash.style.opacity = "0";
+
+                setTimeout(()=>{
+                    splash.style.display="none";
+                },800);
+
+            },500);
+
+        }
+
+    },700);
+    
+    welcome.style.opacity = 0;
+    welcome.style.transform = "translateY(10px)";
+    
+
+setTimeout(() => {
+    welcome.textContent = greetings[i];
+    welcome.style.opacity = 1;
+    welcome.style.transform = "translateY(0)";
+}, 200);
+
+});
+
+    
+        
