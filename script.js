@@ -506,7 +506,35 @@ document.addEventListener("DOMContentLoaded", function(){
 
     startCarousel();
 
+// =========================================
+// CHANGE SLIDE ON SCROLL
+// =========================================
 
+let lastScroll = window.scrollY;
+let scrollTimeout;
+
+window.addEventListener("wheel", function(e) {
+
+    // Only when user is at the hero section
+    if (window.scrollY < window.innerHeight * 0.8) {
+
+        clearTimeout(scrollTimeout);
+
+        scrollTimeout = setTimeout(() => {
+
+            if (e.deltaY > 0) {
+                nextSlide();       // Scroll down
+            } else {
+                previousSlide();   // Scroll up
+            }
+
+            resetCarousel();
+
+        }, 80);
+
+    }
+
+}, { passive: true });
 });
 
     
