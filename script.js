@@ -428,3 +428,39 @@ document.addEventListener("DOMContentLoaded", function () {
     startAuto();
 
 });
+/* ==========================================
+   HERO CAROUSEL
+========================================== */
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const slides = document.querySelectorAll(".slide");
+
+    if (slides.length === 0) return;
+
+    let current = 0;
+
+    function showSlide(index) {
+
+        slides.forEach((slide) => {
+            slide.classList.remove("active");
+        });
+
+        slides[index].classList.add("active");
+    }
+
+    function nextSlide() {
+        current++;
+
+        if (current >= slides.length) {
+            current = 0;
+        }
+
+        showSlide(current);
+    }
+
+    showSlide(current);
+
+    setInterval(nextSlide, 5000);
+
+});
