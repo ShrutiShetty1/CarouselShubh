@@ -345,5 +345,169 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
+// =========================================
+// HERO CAROUSEL
+// =========================================
+
+document.addEventListener("DOMContentLoaded", function(){
+
+    const slides = document.querySelectorAll(".slide");
+    const dots = document.querySelectorAll(".dot");
+
+    const nextBtn = document.querySelector(".next");
+    const prevBtn = document.querySelector(".prev");
+
+
+    if(slides.length === 0) return;
+
+
+    let currentSlide = 0;
+    let autoSlide;
+
+
+
+    function showSlide(index){
+
+        slides.forEach(slide=>{
+            slide.classList.remove("active");
+        });
+
+
+        dots.forEach(dot=>{
+            dot.classList.remove("active");
+        });
+
+
+        if(index >= slides.length){
+
+            currentSlide = 0;
+
+        }
+        else if(index < 0){
+
+            currentSlide = slides.length - 1;
+
+        }
+        else{
+
+            currentSlide = index;
+
+        }
+
+
+        slides[currentSlide]
+        .classList.add("active");
+
+
+        if(dots[currentSlide]){
+
+            dots[currentSlide]
+            .classList.add("active");
+
+        }
+
+    }
+
+
+
+
+    function nextSlide(){
+
+        showSlide(currentSlide + 1);
+
+    }
+
+
+
+
+    function previousSlide(){
+
+        showSlide(currentSlide - 1);
+
+    }
+
+
+
+
+    function startCarousel(){
+
+        autoSlide = setInterval(
+            nextSlide,
+            5000
+        );
+
+    }
+
+
+
+
+    function resetCarousel(){
+
+        clearInterval(autoSlide);
+
+        startCarousel();
+
+    }
+
+
+
+    if(nextBtn){
+
+        nextBtn.addEventListener(
+            "click",
+            ()=>{
+
+                nextSlide();
+
+                resetCarousel();
+
+            }
+        );
+
+    }
+
+
+
+    if(prevBtn){
+
+        prevBtn.addEventListener(
+            "click",
+            ()=>{
+
+                previousSlide();
+
+                resetCarousel();
+
+            }
+        );
+
+    }
+
+
+
+    dots.forEach((dot,index)=>{
+
+
+        dot.addEventListener(
+            "click",
+            ()=>{
+
+                showSlide(index);
+
+                resetCarousel();
+
+            }
+        );
+
+
+    });
+
+
+
+    startCarousel();
+
+
+});
+
     
         
