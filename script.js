@@ -288,11 +288,19 @@ document.addEventListener("DOMContentLoaded", () => {
     const splash = document.getElementById("splash");
     const welcome = document.getElementById("welcomeText");
 
-    // Show splash only once per browser tab
-    if (sessionStorage.getItem("splashShown")) {
-        splash.style.display = "none";
-        return;
-    }
+    splash.style.display = "flex";
+
+    setTimeout(() => {
+
+        splash.style.opacity = "0";
+
+        setTimeout(() => {
+
+            splash.style.display = "none";
+
+        }, 800);
+
+    }, 3500);
 
     sessionStorage.setItem("splashShown", "true");
 
