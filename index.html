@@ -5,172 +5,165 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<link rel="icon" type="image/png" href="logo.png">
 <title>Shubh Labh Distributions</title>
 
-<link rel="icon" href="logo.png">
+<link rel="stylesheet" href="style.css">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
-<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-
-<!-- Splash Screen -->
+   
+   <!-- Splash Screen -->
 <div id="splash">
-    <img src="logo.png" class="splash-logo">
+
+    <img src="logo.png" alt="Shubh Labh Logo" class="splash-logo">
+
     <h1 id="welcomeText">Welcome</h1>
 </div>
 
-<!-- Header -->
-<header>
+<!-- ================= HEADER ================= -->
+
+<header id="header">
+
 <div class="container">
+
+<!--<nav class="navbar">
+
+    <!-- Hamburger Button -->
+    <!--<div class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Navigation -->
+    <!--<ul class="nav-links" id="nav-links">
+
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        
+
+    </ul>
+
+</nav>-->
+
 <nav class="navbar">
 
-<a href="index.html" class="logo">
+    <!-- Logo -->
+   <!-- <a href="index.html" class="logo">
+        <img src="logo.png" alt="Shubh Labh Distributions">
 
-<img src="logo.png">
-    
-    </a>
+        <div class="logo-text">
+            <h2>SHUBH LABH</h2>
+            <span>DISTRIBUTIONS</span>
+        </div>
+    </a> -->
 
+    <!-- Hamburger -->
+    <div class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+    </div>
 
+    <!-- Menu -->
+    <ul class="nav-links" id="nav-links">
 
-<h2>SHUBH LABH</h2>
-<span>DISTRIBUTIONS</span>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="contact.html">Contact</a></li>
 
-</div>
-
-</div>
-
-<div class="menu-toggle"  id="menu-toggle">
-
-<i class="fas fa-bars"></i>
-
-</div>
-
-<ul class="nav-links"  id="nav-links">
-
-<li><a href="#">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#services">Services</a></li>
-<li><a href="#products">Products</a></li>
-<li><a href="#careers">Careers</a></li>
-<li><a href="#contact">Contact</a></li>
-
-</ul>
+    </ul>
 
 </nav>
 
+</div>
+
 </header>
 
-<!-- Hero Carousel -->
+<!-- ================= HERO ================= -->
 
-<section class="hero-slider">
+<section class="hero">
 
-<div class="slide active" id="slide1">
-
-<img src="perfume.jpg">
-
-<div class="overlay"></div>
+<div class="hero-container">
 
 <div class="hero-content">
+<!--
+<span class="hero-tagline">
 
-<h3>Premium Collection</h3>
+WELCOME TO SHUBH LABH DISTRIBUTIONS
 
-<h1>Luxury Fragrances</h1>
+</span>
 
-<p>Experience elegance with premium perfumes crafted for every occasion.</p>
+<h1>
 
-<a href="#" class="btn">Explore Products</a>
+Connecting <span>Quality Products</span><br>
 
-</div>
+Directly with Consumers
 
-</div>
+</h1>
 
-<div class="slide" id="slide2">
+<h3 class="hindi-tagline">
 
-<img src="personal-care.jpg">
+आपकी तरक्की हमारी ज़िम्मेदारी
 
-<div class="overlay"></div>
+</h3>
 
-<div class="hero-content">
+<p>
 
-<h3>Personal Care</h3>
+<strong>Your Growth, Our Responsibility.</strong>
 
-<h1>Healthy Living Starts Here</h1>
+<br><br>
 
-<p>Quality products for everyday lifestyle.</p>
+We build a trusted network of Marketing Professionals and Brand Promoters to bring quality lifestyle and personal care products directly to consumers while creating meaningful earning opportunities across India.
 
-<a href="#" class="btn">View Collection</a>
+</p>-->
 
-</div>
+<div class="hero-buttons">
 
-</div>
+<a href="careers.html" class="btn-primary">
 
-<div class="slide" id="slide3">
+Join Our Team
 
-<img src="confectionery-all.jpg">
+</a>
 
-<div class="overlay"></div>
+<a href="contact.html" class="btn-secondary">
 
-<div class="hero-content">
+Become a Brand Promoter
 
-<h3>Confectioneries</h3>
-
-<h1>Premium Chocolates</h1>
-
-<p>Delicious flavours for every celebration.</p>
-
-<a href="#" class="btn">Discover More</a>
+</a>
 
 </div>
 
 </div>
 
-<!-- Dots -->
-
-<div class="dots">
-
-<span class="dot active"></span>
-<span class="dot"></span>
-<span class="dot"></span>
-
-</div>
-
-<!-- Arrows -->
-
-<div class="prev">
-<i class="fas fa-chevron-left"></i>
-</div>
-
-<div class="next">
-<i class="fas fa-chevron-right"></i>
 </div>
 
 </section>
+<!-- ================= ABOUT US ================= -->
 
-<!-- ================= ABOUT ================= -->
-
-<section id="about" class="about">
+<section class="about" id="about">
 
     <div class="container">
 
-        <div class="section-title">
+        <div class="section-heading">
 
             <span>ABOUT US</span>
 
-            <h2>Welcome to Shubh Labh Distributions</h2>
+            <h2>About Shubh Labh Distributions</h2>
 
             <p>
-                Shubh Labh Distributions is a trusted distribution company committed to delivering premium fragrances, personal care products, and confectioneries across India through a strong and growing network.
+                Shubh Labh Distributions is dedicated to building a modern
+                direct-to-consumer distribution network for quality lifestyle
+                and personal care products.
             </p>
 
         </div>
@@ -185,55 +178,86 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
             <div class="about-content">
 
-                <h3>Your Trusted Distribution Partner</h3>
+                <h3>Empowering Growth Through Direct Distribution</h3>
 
                 <p>
-                    We believe in building long-term relationships with consumers, marketing professionals, and brand promoters by delivering quality products and creating sustainable business opportunities.
+                    Our mission is to create meaningful earning opportunities
+                    while making quality products more accessible through a
+                    trusted network of Marketing Professionals and Brand
+                    Promoters.
                 </p>
 
-                <p>
-                    Our mission is to make premium products accessible while empowering individuals through a transparent and rewarding distribution model.
-                </p>
+                <a href="about.html" class="btn-primary">
+                    Learn More
+                </a>
 
                 <div class="about-features">
 
-                    <div class="feature-card">
-
-                        <i class="fas fa-handshake"></i>
-
-                        <h4>Trusted Network</h4>
-
-                        <p>Building lasting partnerships across India.</p>
-
-                    </div>
-
-                    <div class="feature-card">
-
-                        <i class="fas fa-box-open"></i>
-
-                        <h4>Quality Products</h4>
-
-                        <p>Premium products sourced with care.</p>
-
-                    </div>
-
-                    <div class="feature-card">
-
-                        <i class="fas fa-chart-line"></i>
-
-                        <h4>Business Growth</h4>
-
-                        <p>Creating opportunities for everyone.</p>
-
-                    </div>
-
-                    <div class="feature-card">
+                    <div class="feature-item">
 
                         <i class="fas fa-users"></i>
 
-                        <h4>Customer First</h4>
+                        <div>
 
-                        <p>Dedicated support and reliable service.</p>
+                            <h4>Trusted Network</h4>
+
+                            <p>
+                                A growing network of Marketing Professionals and
+                                Brand Promoters across India.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="feature-item">
+
+                        <i class="fas fa-box-open"></i>
+
+                        <div>
+
+                            <h4>Quality Products</h4>
+
+                            <p>
+                                Premium lifestyle and personal care products
+                                delivered directly to consumers.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="feature-item">
+
+                        <i class="fas fa-chart-line"></i>
+
+                        <div>
+
+                            <h4>Growth Opportunities</h4>
+
+                            <p>
+                                Helping individuals build successful careers and
+                                sustainable income opportunities.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="feature-item">
+
+                        <i class="fas fa-handshake"></i>
+
+                        <div>
+
+                            <h4>Long-Term Partnerships</h4>
+
+                            <p>
+                                Building lasting relationships with customers,
+                                business partners and promoters.
+                            </p>
+
+                        </div>
 
                     </div>
 
@@ -247,22 +271,160 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
 </section>
 
-<!-- ================= WHY CHOOSE US ================= -->
+<!-- ================= HOW IT WORKS ================= -->
 
-<section class="why-choose" id="why">
+<section class="how-we-work" id="how-it-works">
 
     <div class="container">
 
-        <div class="section-title">
+        <div class="section-heading">
 
-            <span>WHY CHOOSE SHUBH LABH</span>
+            <span>HOW IT WORKS</span>
 
-            <h2>Building Success Together</h2>
+            <h2>Our Simple Business Model</h2>
 
             <p>
-                We provide a trusted business platform where individuals can
-                grow professionally while delivering premium products to
-                customers across India.
+                We connect quality products with consumers through a structured
+                network that creates growth opportunities for everyone involved.
+            </p>
+
+        </div>
+
+        <div class="process-grid">
+
+            <div class="process-card">
+
+                <div class="process-number">01</div>
+
+                <i class="fas fa-building"></i>
+
+                <h3>Company</h3>
+
+                <p>
+                    We source premium lifestyle and personal care products and
+                    provide the business platform.
+                </p>
+
+            </div>
+
+            <div class="process-card">
+
+                <div class="process-number">02</div>
+
+                <i class="fas fa-user-tie"></i>
+
+                <h3>Marketing Professionals</h3>
+
+                <p>
+                    Our Marketing Professionals recruit, train and support
+                    Brand Promoters while expanding our distribution network.
+                </p>
+
+            </div>
+
+            <div class="process-card">
+
+                <div class="process-number">03</div>
+
+                <i class="fas fa-users"></i>
+
+                <h3>Brand Promoters</h3>
+
+                <p>
+                    Brand Promoters introduce products to consumers, build
+                    relationships and earn performance-based commissions.
+                </p>
+
+            </div>
+
+            <div class="process-card">
+
+                <div class="process-number">04</div>
+
+                <i class="fas fa-shopping-bag"></i>
+
+                <h3>Consumers</h3>
+
+                <p>
+                    Consumers receive trusted quality products backed by
+                    excellent service and ongoing support.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="workflow-note">
+
+            <h3>Business Flow</h3>
+
+            <div class="business-flow">
+
+                <div class="flow-item">
+                    <i class="fas fa-building"></i>
+                    <span>Company</span>
+                </div>
+
+                <div class="flow-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+
+                <div class="flow-item">
+                    <i class="fas fa-user-tie"></i>
+                    <span>Marketing Professionals</span>
+                </div>
+
+                <div class="flow-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+
+                <div class="flow-item">
+                    <i class="fas fa-users"></i>
+                    <span>Brand Promoters</span>
+                </div>
+
+                <div class="flow-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+
+                <div class="flow-item">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>Consumers</span>
+                </div>
+
+            </div>
+
+            <p class="flow-description">
+
+                Every <strong>Brand Promoter</strong> represents our products,
+                connects with customers and earns commission based on sales.
+                Our <strong>Marketing Professionals</strong> mentor, train and
+                support this growing network, creating long-term business
+                opportunities across India.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= WHY JOIN SHUBH LABH ================= -->
+
+<section class="why-choose" id="why-join">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>WHY JOIN SHUBH LABH?</span>
+
+            <h2>Build Your Future With Us</h2>
+
+            <p>
+                Join a growing organization where your dedication is rewarded,
+                your skills are developed and your success is celebrated.
             </p>
 
         </div>
@@ -271,13 +433,13 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
             <div class="why-card">
 
-                <i class="fas fa-user-graduate"></i>
+                <i class="fas fa-graduation-cap"></i>
 
                 <h3>Professional Training</h3>
 
                 <p>
-                    Learn modern sales, leadership and communication skills
-                    through structured guidance.
+                    Receive structured training to develop your communication,
+                    marketing and leadership skills.
                 </p>
 
             </div>
@@ -286,11 +448,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
                 <i class="fas fa-chart-line"></i>
 
-                <h3>Career Growth</h3>
+                <h3>Growth Opportunities</h3>
 
                 <p>
-                    Build a rewarding career with continuous learning,
-                    recognition and growth opportunities.
+                    Build a rewarding career with continuous learning and
+                    advancement opportunities.
                 </p>
 
             </div>
@@ -299,11 +461,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
                 <i class="fas fa-coins"></i>
 
-                <h3>Performance Rewards</h3>
+                <h3>Performance-Based Earnings</h3>
 
                 <p>
-                    Attractive commissions and incentives based on dedication
-                    and performance.
+                    Earn attractive commissions and incentives based on your
+                    dedication and performance.
                 </p>
 
             </div>
@@ -312,24 +474,24 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
                 <i class="fas fa-users"></i>
 
-                <h3>Supportive Team</h3>
+                <h3>Supportive Team Environment</h3>
 
                 <p>
-                    Work alongside experienced mentors who guide and motivate
-                    your success.
+                    Work alongside experienced mentors who help you achieve
+                    your professional goals.
                 </p>
 
             </div>
 
             <div class="why-card">
 
-                <i class="fas fa-handshake"></i>
+                <i class="fas fa-store"></i>
 
-                <h3>Trusted Brand</h3>
+                <h3>Direct Consumer Business Model</h3>
 
                 <p>
-                    Deliver quality lifestyle products through a reliable
-                    nationwide distribution network.
+                    Promote quality lifestyle and personal care products
+                    directly to consumers through our trusted network.
                 </p>
 
             </div>
@@ -338,11 +500,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
                 <i class="fas fa-network-wired"></i>
 
-                <h3>Expand Your Network</h3>
+                <h3>Build Your Own Network</h3>
 
                 <p>
-                    Create your own business network and build long-term
-                    professional relationships.
+                    Create and grow your own team of Brand Promoters while
+                    expanding your business opportunities.
                 </p>
 
             </div>
@@ -352,26 +514,23 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     </div>
 
 </section>
-
-
 <!-- ================= OUR SERVICES ================= -->
-
-<!-- ================= SERVICES ================= -->
 
 <section class="services" id="services">
 
     <div class="container">
 
-        <div class="section-title">
+        <div class="section-heading">
 
             <span>OUR SERVICES</span>
 
-            <h2>Helping Businesses & People Grow</h2>
+            <h2>Helping Brands Grow, Connecting Consumers</h2>
 
             <p>
-                We connect quality products with customers through an innovative
-                distribution network while creating rewarding opportunities for
-                Marketing Professionals and Brand Promoters.
+                We provide end-to-end distribution, marketing and business
+                development solutions that help brands expand while creating
+                rewarding opportunities for Marketing Professionals and Brand
+                Promoters.
             </p>
 
         </div>
@@ -379,57 +538,92 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         <div class="services-grid">
 
             <div class="service-card">
+
                 <i class="fas fa-box-open"></i>
-                <h3>Direct Distribution</h3>
+
+                <h3>Direct Product Distribution</h3>
+
                 <p>
-                    Delivering premium lifestyle and personal care products
-                    efficiently across India.
+                    We connect quality lifestyle and personal care products
+                    directly with consumers through our growing network.
                 </p>
+
             </div>
 
             <div class="service-card">
+
                 <i class="fas fa-bullhorn"></i>
+
                 <h3>Brand Promotion</h3>
+
                 <p>
-                    Helping brands build visibility through trusted promoters
-                    and professional marketing.
+                    Helping brands increase visibility through trained
+                    Marketing Professionals and Brand Promoters.
                 </p>
+
             </div>
 
             <div class="service-card">
-                <i class="fas fa-user-tie"></i>
-                <h3>Marketing Professionals</h3>
-                <p>
-                    Developing skilled professionals with continuous training
-                    and support.
-                </p>
-            </div>
 
-            <div class="service-card">
                 <i class="fas fa-users"></i>
-                <h3>Brand Promoters</h3>
+
+                <h3>Consumer Network Development</h3>
+
                 <p>
-                    Building a nationwide network of dedicated Brand Promoters.
+                    Building long-term customer relationships through trusted
+                    community engagement and personalized service.
                 </p>
+
             </div>
 
             <div class="service-card">
+
                 <i class="fas fa-chart-line"></i>
-                <h3>Business Growth</h3>
+
+                <h3>Sales & Marketing Support</h3>
+
                 <p>
-                    Creating sustainable income opportunities through
-                    performance-based growth.
+                    Supporting businesses with lead generation, customer
+                    engagement and sustainable sales growth.
                 </p>
+
             </div>
 
             <div class="service-card">
-                <i class="fas fa-headset"></i>
-                <h3>Customer Support</h3>
+
+                <i class="fas fa-user-check"></i>
+
+                <h3>Brand Ambassador Program</h3>
+
                 <p>
-                    Ensuring excellent service and long-term customer
-                    satisfaction.
+                    Recruiting, training and supporting Brand Promoters who
+                    professionally represent our products.
                 </p>
+
             </div>
+
+            <div class="service-card">
+
+                <i class="fas fa-globe"></i>
+
+                <h3>Business Expansion</h3>
+
+                <p>
+                    Whether you're a brand or an entrepreneur, we help create
+                    new business opportunities and sustainable growth.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div style="text-align:center; margin-top:50px;">
+
+            <a href="services.html" class="btn-primary">
+
+                View All Services
+
+            </a>
 
         </div>
 
@@ -437,91 +631,141 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
 </section>
 
-<!-- ================= PRODUCTS ================= -->
+<!-- ================= OUR PRODUCTS ================= -->
 
 <section class="products" id="products">
 
     <div class="container">
 
-        <div class="section-title">
+        <div class="section-heading">
 
             <span>OUR PRODUCTS</span>
 
-            <h2>Premium Products for Everyday Living</h2>
+            <h2>Premium Fragrances, Personal Care & Confectioneries</h2>
 
             <p>
-                Explore our carefully selected range of premium fragrances,
-                personal care and confectionery products designed to enhance
-                everyday life.
+                At Shubh Labh Distributions, we offer a carefully selected
+                range of premium products designed to enhance everyday living.
+                Our portfolio combines quality, affordability and innovation.
             </p>
 
         </div>
 
-        <div class="products-grid">
+        <div class="product-grid">
+
+            <!-- Product 1 -->
 
             <div class="product-card">
 
-                <img src="perfume.jpg" alt="Perfumes">
+                <img src="perfume.jpg" alt="Premium Perfumes">
 
-                <div class="product-info">
+                <div class="product-content">
 
                     <h3>Premium Fragrances</h3>
 
                     <p>
-                        Elegant perfumes crafted for lasting freshness and style.
+                        Elegant perfumes for men and women offering
+                        long-lasting freshness and a memorable impression.
                     </p>
 
                 </div>
 
             </div>
+
+            <!-- Product 2 -->
 
             <div class="product-card">
 
                 <img src="personal-care.jpg" alt="Personal Care">
 
-                <div class="product-info">
+                <div class="product-content">
 
                     <h3>Personal Care</h3>
 
                     <p>
-                        Daily essentials for skincare, hygiene and wellness.
+                        High-quality skincare, haircare, body care
+                        and daily hygiene essentials for every family.
                     </p>
 
                 </div>
 
             </div>
+
+            <!-- Product 3 -->
 
             <div class="product-card">
 
-                <img src="beauty.jpg" alt="Beauty">
+                <img src="beauty.jpg" alt="Beauty & Wellness">
 
-                <div class="product-info">
+                <div class="product-content">
 
-                    <h3>Beauty Products</h3>
+                    <h3>Beauty & Wellness</h3>
 
                     <p>
-                        Premium beauty solutions designed for confidence.
+                        Premium beauty and wellness products that
+                        inspire confidence, self-care and healthy living.
                     </p>
 
                 </div>
 
             </div>
 
-            <div class="product-card">
 
-                <img src="confectionery-pouch.jpg" alt="Confectionery">
+    <img src="confectionery-pouch.jpg"
+     class="product-image"
+     onclick="openImage('confectionery-all.jpg')">
 
-                <div class="product-info">
+    <div class="product-content">
 
-                    <h3>Confectioneries</h3>
+        <h3>🍫 Confectioneries</h3>
 
-                    <p>
-                        Delicious chocolates and treats for every celebration.
-                    </p>
+        <p>
+            Indulge in our premium range of chocolates and confectionery,
+            available in a variety of delicious flavours and elegant
+            packaging for every occasion.
+        </p>
 
-                </div>
+        <ul class="product-features">
 
-            </div>
+            <li><i class="fas fa-check-circle"></i> Milk & Dark Chocolate</li>
+
+            <li><i class="fas fa-check-circle"></i> Fruit & Nut Collection</li>
+
+            <li><i class="fas fa-check-circle"></i> Crispy & Crunchy Variants</li>
+
+            <li><i class="fas fa-check-circle"></i> Premium Gift Packaging</li>
+
+        </ul>
+
+    </div>
+
+</div>
+
+        </div>
+
+        <div class="section-heading" style="margin-top:60px;">
+
+            <h3>Our Commitment</h3>
+
+            <p>
+
+                We are committed to delivering trusted, high-quality
+                products through our dedicated network of Marketing
+                Professionals and Brand Promoters, ensuring every
+                customer enjoys exceptional value, reliable service
+                and a satisfying product experience.
+
+            </p>
+
+        </div>
+
+        <div style="text-align:center;">
+
+            <a href="products.html" class="btn-primary">
+
+                View All Products
+
+            </a>
 
         </div>
 
@@ -535,115 +779,70 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
     <div class="container">
 
-        <div class="section-title">
+        <div class="section-heading">
 
             <span>CAREERS</span>
 
-            <h2>Grow Your Career With Shubh Labh</h2>
+            <h2>We're Hiring</h2>
 
             <p>
-                Join our growing distribution network and build a rewarding
-                career with learning, growth and business opportunities.
+                We're looking for passionate individuals who enjoy meeting people,
+                building relationships and growing successful teams. Join us and
+                build a rewarding career with Shubh Labh Distributions.
             </p>
 
         </div>
 
+        <div class="services-grid">
 
-        <div class="career-wrapper">
+            <div class="service-card">
 
+                <i class="fas fa-bullhorn"></i>
 
-            <div class="career-content">
-
-                <h3>Why Join Us?</h3>
+                <h3>Marketing Executive</h3>
 
                 <p>
-                    We believe in empowering people with the right training,
-                    guidance and opportunities to achieve professional growth.
+                    Promote our products, engage with customers and help expand
+                    our distribution network.
                 </p>
 
+            </div>
 
-                <div class="career-points">
+            <div class="service-card">
 
-                    <div>
-                        <i class="fas fa-graduation-cap"></i>
-                        <h4>Professional Training</h4>
-                        <p>
-                            Learn sales, marketing and leadership skills.
-                        </p>
-                    </div>
+                <i class="fas fa-user-tie"></i>
 
+                <h3>HR Manager</h3>
 
-                    <div>
-                        <i class="fas fa-chart-line"></i>
-                        <h4>Growth Opportunities</h4>
-                        <p>
-                            Build a successful career with us.
-                        </p>
-                    </div>
-
-
-                    <div>
-                        <i class="fas fa-users"></i>
-                        <h4>Supportive Team</h4>
-                        <p>
-                            Work with experienced professionals.
-                        </p>
-                    </div>
-
-
-                </div>
+                <p>
+                    Recruit, train and support Marketing Professionals and
+                    Brand Promoters while strengthening our team.
+                </p>
 
             </div>
 
+            <div class="service-card">
 
+                <i class="fas fa-chart-line"></i>
 
-            <div class="career-form">
+                <h3>Business Development Executive</h3>
 
-                <h3>Apply Now</h3>
-
-
-                <form id="careerForm">
-
-                    <input type="text" placeholder="Full Name" required>
-
-                    <input type="email" placeholder="Email Address" required>
-
-                    <input type="tel" placeholder="Phone Number" required>
-
-
-                    <select required>
-
-                        <option value="">
-                            Select Position
-                        </option>
-
-                        <option>
-                            Marketing Professional
-                        </option>
-
-                        <option>
-                            Brand Promoter
-                        </option>
-
-                        <option>
-                            Sales Executive
-                        </option>
-
-                    </select>
-
-
-                    <textarea placeholder="Message"></textarea>
-
-
-                    <button type="submit" class="btn">
-                        Submit Application
-                    </button>
-
-
-                </form>
+                <p>
+                    Identify new business opportunities, develop partnerships
+                    and contribute to the company's growth.
+                </p>
 
             </div>
 
+        </div>
+
+        <div style="text-align:center; margin-top:50px;">
+
+            <a href="careers.html" class="btn-primary">
+
+                Apply Now
+
+            </a>
 
         </div>
 
@@ -651,305 +850,183 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
 </section>
 
-<!-- ================= CONTACT ================= -->
+<!-- ================= JOIN OUR TEAM ================= -->
 
-<section class="contact" id="contact">
+<section class="contact-banner">
 
-    <div class="container">
+    <div class="container contact-banner-content">
 
-        <div class="section-title">
+        <div>
 
-            <span>CONTACT US</span>
+            <span style="color:#D4AF37;font-weight:700;letter-spacing:2px;">
+                OUR PROMISE
+            </span>
 
-            <h2>Let's Connect With Shubh Labh</h2>
+            <h2>Your Growth, Our Responsibility.</h2>
+
+            <h3 style="margin:15px 0;color:#ffffff;">
+                आपकी तरक्की हमारी ज़िम्मेदारी।
+            </h3>
 
             <p>
-                Have questions about our products, distribution opportunities
-                or business partnerships? Our team is here to help.
+                We believe that when our people grow, our business grows.
+                That's why we invest in professional training, continuous
+                support and long-term development. Whether you're looking for
+                career opportunities, business partnerships or becoming a Brand
+                Promoter, we're here to help you succeed.
             </p>
 
         </div>
 
+        <div>
 
-        <div class="contact-wrapper">
+            <a href="careers.html" class="btn-primary">
 
+                Join Our Team
 
-            <!-- Contact Information -->
+            </a>
 
-            <div class="contact-info">
+            <a href="contact.html"
+               class="btn-secondary"
+               style="margin-left:15px;">
 
+                Become a Brand Promoter
 
-                <div class="contact-card">
-
-                    <i class="fas fa-location-dot"></i>
-
-                    <div>
-                        <h4>Our Location</h4>
-                        <p>
-                            Bangalore, Karnataka, India
-                        </p>
-                    </div>
-
-                </div>
-
-
-
-                <div class="contact-card">
-
-                    <i class="fas fa-phone"></i>
-
-                    <div>
-                        <h4>Call Us</h4>
-                        <p>
-                            +91 XXXXX XXXXX
-                        </p>
-                    </div>
-
-                </div>
-
-
-
-                <div class="contact-card">
-
-                    <i class="fas fa-envelope"></i>
-
-                    <div>
-                        <h4>Email Us</h4>
-                        <p>
-                            info@shubhlabhdistributions.com
-                        </p>
-                    </div>
-
-                </div>
-
-
-
-                <div class="contact-card">
-
-                    <i class="fas fa-clock"></i>
-
-                    <div>
-                        <h4>Working Hours</h4>
-                        <p>
-                            Monday - Saturday<br>
-                            9:00 AM - 6:00 PM
-                        </p>
-                    </div>
-
-                </div>
-
-
-            </div>
-
-
-
-            <!-- Contact Form -->
-
-
-            <div class="contact-form">
-
-
-                <h3>Send Us A Message</h3>
-
-
-                <form id="contactForm">
-
-
-                    <input type="text" 
-                    placeholder="Your Name" 
-                    required>
-
-
-                    <input type="email" 
-                    placeholder="Your Email" 
-                    required>
-
-
-                    <input type="tel" 
-                    placeholder="Phone Number" 
-                    required>
-
-
-                    <input type="text" 
-                    placeholder="Subject">
-
-
-                    <textarea 
-                    placeholder="Your Message">
-                    </textarea>
-
-
-                    <button type="submit" class="btn">
-                        Send Message
-                    </button>
-
-
-                </form>
-
-
-            </div>
-
+            </a>
 
         </div>
 
-
     </div>
-
 
 </section>
 
 <!-- ================= FOOTER ================= -->
 
-<footer class="footer">
+<footer>
 
     <div class="container">
 
         <div class="footer-grid">
 
-
             <!-- Company -->
 
             <div class="footer-about">
 
-                <img src="logo.png" alt="Shubh Labh Distributions">
+                <img src="logo.png" alt="Shubh Labh Logo">
 
-                <h3>SHUBH LABH</h3>
+                <h3>Shubh Labh Distributions</h3>
 
                 <p>
-                    Premium distribution partner providing quality
-                    fragrances, personal care products and confectioneries
-                    through a trusted network across India.
+
+                    Your trusted partner in direct product distribution,
+                    empowering Marketing Professionals and Brand Promoters
+                    while delivering premium lifestyle and personal care
+                    products across India.
+
                 </p>
 
             </div>
 
-
-
             <!-- Quick Links -->
 
-            <div class="footer-links">
+            <div>
 
                 <h4>Quick Links</h4>
 
                 <ul>
 
-                    <li>
-                        <a href="#about">About Us</a>
-                    </li>
+                    <li><a href="index.html">Home</a></li>
 
-                    <li>
-                        <a href="#services">Services</a>
-                    </li>
+                    <li><a href="about.html">About Us</a></li>
 
-                    <li>
-                        <a href="#products">Products</a>
-                    </li>
+                    <li><a href="services.html">Services</a></li>
 
-                    <li>
-                        <a href="#careers">Careers</a>
-                    </li>
+                    <li><a href="products.html">Products</a></li>
 
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
+                    <li><a href="careers.html">Careers</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
 
                 </ul>
 
             </div>
-
-
-
-
-            <!-- Products -->
-
-            <div class="footer-links">
-
-                <h4>Our Products</h4>
-
-                <ul>
-
-                    <li>Premium Fragrances</li>
-
-                    <li>Personal Care</li>
-
-                    <li>Beauty Products</li>
-
-                    <li>Confectioneries</li>
-
-                </ul>
-
-            </div>
-
-
-
 
             <!-- Contact -->
 
-            <div class="footer-contact">
+            <div>
 
                 <h4>Contact Us</h4>
 
-
                 <p>
-                    <i class="fas fa-location-dot"></i>
-                    Bangalore, Karnataka
+
+                    <i class="fas fa-map-marker-alt"></i>
+
+                    Sector 18, Chandigarh, India
+
                 </p>
 
-
                 <p>
-                    <i class="fas fa-envelope"></i>
-                    info@shubhlabhdistributions.com
-                </p>
 
-
-                <p>
                     <i class="fas fa-phone"></i>
-                    +91 XXXXX XXXXX
+
+                    +91 74835 26536
+
                 </p>
 
+                <p>
 
+                    <i class="fas fa-phone"></i>
+
+                    +91 82406 33147
+
+                </p>
+
+                <p>
+
+                    <i class="fas fa-envelope"></i>
+
+                    info@shubhlabhdistributions.com
+
+                </p>
 
                 <div class="social-icons">
 
-                    <a href="#">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
 
-                    <a href="#">
-                        <i class="fab fa-instagram"></i>
-                    </a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
 
-                    <a href="#">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
 
-                    <a href="#">
-                        <i class="fab fa-youtube"></i>
-                    </a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
 
                 </div>
 
-
             </div>
 
-
         </div>
-
 
         <div class="footer-bottom">
 
             <p>
+
                 © 2026 Shubh Labh Distributions. All Rights Reserved.
+
             </p>
 
         </div>
 
-
     </div>
-
 
 </footer>
 
+<!-- Back To Top -->
+
+<button id="topBtn">
+
+<i class="fas fa-arrow-up"></i>
+
+</button>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script src="script.js"></script>
 
 </body>
