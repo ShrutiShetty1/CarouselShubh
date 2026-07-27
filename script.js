@@ -146,32 +146,45 @@ if (menuToggle && mobileNav) {
 
     menuToggle.addEventListener("click", () => {
 
-        mobileNav.classList.toggle("active");
+    mobileNav.classList.toggle("active");
 
-        const icon = menuToggle.querySelector("i");
+    const icon = menuToggle.querySelector("i");
 
-        if (mobileNav.classList.contains("active")) {
-            icon.classList.remove("fa-bars");
-            icon.classList.add("fa-times");
-        } else {
-            icon.classList.remove("fa-times");
-            icon.classList.add("fa-bars");
-        }
-    });
+    if (mobileNav.classList.contains("active")) {
+
+        icon.classList.remove("fa-bars");
+        icon.classList.add("fa-times");
+
+        // Prevent page scrolling when menu is open
+        document.body.style.overflow = "hidden";
+
+    } else {
+
+        icon.classList.remove("fa-times");
+        icon.classList.add("fa-bars");
+
+        // Enable scrolling again
+        document.body.style.overflow = "";
+
+    }
+});
 
     document.querySelectorAll("#nav-links a").forEach(link => {
 
-        link.addEventListener("click", () => {
+    link.addEventListener("click", () => {
 
-            mobileNav.classList.remove("active");
+        mobileNav.classList.remove("active");
 
-            const icon = menuToggle.querySelector("i");
-            icon.classList.remove("fa-times");
-            icon.classList.add("fa-bars");
+        const icon = menuToggle.querySelector("i");
+        icon.classList.remove("fa-times");
+        icon.classList.add("fa-bars");
 
-        });
+        // Re-enable scrolling
+        document.body.style.overflow = "";
 
     });
+
+});
 
 }// EmailJS Configuration
 
