@@ -42,36 +42,36 @@ ul{
     margin:auto;
 }
 
-/*=========================
+/*=========================================
 HEADER
-=========================*/
+=========================================*/
 
 header{
     position:fixed;
     top:0;
     left:0;
     width:100%;
-    background:transparent;
-    transition:.35s;
     z-index:1000;
+    background:transparent;
+    transition:all .35s ease;
 }
 
 header.scrolled{
-    background:#fff;
+    background:#ffffff;
     box-shadow:0 8px 25px rgba(0,0,0,.08);
 }
 
 .navbar{
-    display:flex;
-    align-items:center;
     height:90px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 }
 
 .logo{
     display:flex;
     align-items:center;
     gap:15px;
-    color:#fff;
 }
 
 .logo img{
@@ -80,23 +80,23 @@ header.scrolled{
 
 .logo-text h2{
     font-size:28px;
-    line-height:1;
-    color:#fff;
+    color:#ffffff;
     font-weight:700;
+    line-height:1;
 }
 
 .logo-text span{
     color:#D4AF37;
     font-size:12px;
     letter-spacing:2px;
-    font-weight:600;
 }
 
 header.scrolled .logo-text h2{
     color:#0B2D5C;
 }
 
-/* Push menu to right */
+/* Navigation */
+
 .nav-links{
     display:flex;
     align-items:center;
@@ -104,14 +104,18 @@ header.scrolled .logo-text h2{
     margin-left:auto;
 }
 
+.nav-links li{
+    list-style:none;
+}
+
 .nav-links a{
-    color:#fff;
+    color:#ffffff;
     font-weight:500;
     transition:.3s;
 }
 
-header.scrolled .nav-links a {
-    color: #fff;
+header.scrolled .nav-links a{
+    color:#0B2D5C;
 }
 
 .nav-links a:hover,
@@ -119,28 +123,89 @@ header.scrolled .nav-links a {
     color:#D4AF37;
 }
 
+/* Login Button */
+
 .login-btn{
     background:#D4AF37;
     color:#fff !important;
-    padding:13px 28px;
+    padding:12px 28px;
     border-radius:40px;
-    font-weight:600;
 }
 
 .login-btn:hover{
     background:#0B2D5C;
-    color:#fff !important;
 }
+
+/* Hamburger */
 
 .menu-toggle{
     display:none;
     font-size:30px;
     cursor:pointer;
-    color:#fff;
+    color:#ffffff;
 }
 
 header.scrolled .menu-toggle{
     color:#0B2D5C;
+}
+
+/*==============================
+MOBILE MENU
+==============================*/
+
+@media(max-width:768px){
+
+.navbar{
+    height:80px;
+}
+
+.menu-toggle{
+    display:block;
+    position:fixed;
+    top:24px;
+    right:20px;
+    z-index:10002;
+}
+
+.nav-links{
+    position:fixed;
+    top:0;
+    right:-100%;
+    width:100%;
+    height:100vh;
+    background:#0B2D5C;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:28px;
+    transition:.4s;
+    margin:0;
+    z-index:10001;
+}
+
+.nav-links.active{
+    right:0;
+}
+
+.nav-links a{
+    color:#ffffff;
+    font-size:24px;
+}
+
+header.scrolled .nav-links a{
+    color:#ffffff;
+}
+
+header.scrolled .nav-links a:hover,
+header.scrolled .nav-links a.active{
+    color:#D4AF37;
+}
+
+.login-btn{
+    width:220px;
+    text-align:center;
+}
+
 }
 
 /*=========================
