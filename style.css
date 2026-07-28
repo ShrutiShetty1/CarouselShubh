@@ -110,8 +110,8 @@ header.scrolled .logo-text h2{
     transition:.3s;
 }
 
-header.scrolled .nav-links a{
-    color:#0B2D5C;
+.header.scrolled .nav-links a {
+    color: #fff;
 }
 
 .nav-links a:hover,
