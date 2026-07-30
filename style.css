@@ -47,18 +47,18 @@ HEADER
 =========================================*/
 
 header{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    z-index:1000;
-    background:transparent;
-    transition:all .35s ease;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(8px);
 }
 
 header.scrolled{
-    background:#ffffff;
-    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    background: #ffffff;
+    box-shadow: 0 5px 20px rgba(0,0,0,.1);
 }
 
 .navbar{
@@ -109,8 +109,10 @@ header.scrolled .logo-text h2{
 }
 
 .nav-links a{
-    color:#ffffff;
-    font-weight:500;
+    color:#333;
+
+    font-weight:600;
+    
     transition:.3s;
 }
 
@@ -119,8 +121,11 @@ header.scrolled .nav-links a{
 }
 
 .nav-links a:hover,
+
 .nav-links a.active{
-    color:#D4AF37;
+
+    color:#c58b3a;
+
 }
 
 /* Login Button */
