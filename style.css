@@ -62,11 +62,15 @@ header.scrolled{
 }
 
 .navbar{
-    height:90px;
+
     display:flex;
-    justify-content:space-between;
+
+    justify-content:center;
+
     align-items:center;
-}
+
+    height:70px;
+    }
 
 .logo{
     display:flex;
@@ -98,10 +102,16 @@ header.scrolled .logo-text h2{
 /* Navigation */
 
 .nav-links{
+
     display:flex;
-    align-items:center;
-    gap:32px;
-    margin-left:auto;
+
+    gap:40px;
+
+    list-style:none;
+
+    margin:0;
+
+    padding:0;
 }
 
 .nav-links li{
