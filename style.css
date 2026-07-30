@@ -218,10 +218,11 @@ HERO CAROUSEL
 =========================================*/
 
 .hero-slider{
-    position:relative;
-    min-height:100vh;
-    height:100svh;
-    overflow:hidden;
+    position: relative;
+    min-height: 100vh;
+    height: 100vh;
+    margin-top: 110px;   /* Pushes slider below fixed header */
+    overflow: hidden;
 }
 
 .slide{
@@ -1856,13 +1857,7 @@ grid-template-columns:1fr;
  HERO CAROUSEL
 ========================= */
 
-.hero-slider{
 
-height:100vh;
-position:relative;
-overflow:hidden;
-
-}
 
 
 .slide{
